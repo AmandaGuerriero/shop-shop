@@ -29,7 +29,7 @@ function CategoryMenu({ setCategory }) {
           });
         });
     }
-  }, [categoryData, dispatch]);
+  }, [categoryData, loading, dispatch]);
 
   const handleClick = id => {
     dispatch({
